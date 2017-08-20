@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+.contact_head{
+    width: 800px;
+    height: 80px;
+    margin: 0px auto;
+    background: green;
+    border-radius: 20px 20px 0px 0px ;
+    color: white;
+    line-height: 80px;
+    padding: 0px 40px;
+    font-family: verdana;   
+}
+.contact_head .sil{
+    color: white;
+    text-decoration: none;
+    float: right;
+    display: none;
+}
+.contact_wrap{
+    width: 800px;
+    height: 400px;
+    background: black;
+    margin: 0px auto;
+    border-radius: 0px 0px 20px 20px ;
+    position: relative;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.contact_wrap .user{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    color: white;
+    display: none;
+}
+.contact_wrap .user img{
+    width: 80px;
+    height: 80px;
+    float: right;
+    border-radius: 10px;
+}
+.contact_wrap .user span{
+    display: inline-block;
+    margin: 20px 20px 0px 0px;
+    float: right;
+    font-family: verdana;
+}
+
+
+.contact_wrap .callcenter{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    color: white;
+    display: none;
+}
+.contact_wrap .callcenter img{
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 10px;
+}
+.contact_wrap .callcenter span{
+    display: inline-block;
+    margin: 20px 0px 0px 20px;
+    float: left;
+    font-family: verdana;
+}
+
+
+.input{
+    display: inline-block;
+    width: 700px;
+    height: 50px;
+    outline: none;
+    background: black;
+    color: white;
+    padding-left: 20px;
+    font-size: 15px;
+    border-radius: 10px 0px 0px 10px;
+}
+.button{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: black;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.form{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.clear{
+    opacity: .5;
+}
+
+
+.container{
+    display: none;
+}
+.popup{
+    width: 200px;
+    height: 60px;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 35px;
+    font-family: verdana;
+    color: green;
+    text-align: center;
+    line-height: 48px;
+    transition: all .4s linear;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.popup:hover{
+
+    background: green;
+    color: white;
+    transform: translateY(3px)
+}
